@@ -9,4 +9,4 @@ def bubble_sort(list):
     return list
 
 numbers = [4, 5, 2, 66, 44, 1, 3]
-print(bubble_sort(numbers))
+assert(bubble_sort(numbers) == [1, 3, 2, 3, 4, 5, 44, 66])
